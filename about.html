@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">	
+	<meta http-equiv="X-UA-Compatible" content="IE-Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+	<title> Stories </title>
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Asap:600|Capriola|Poppins" rel="stylesheet">
+	<!-- Font Awesome -->
+	<link href="https://use.fontawesome.com/c5d1608731.css" media="all" rel="stylesheet">
+</head>
+
+<body>
+ 
+<div class="parallax">
+<div class="parallax-body">
+
+<nav>
+	<div class="container-fluid">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			<span><a href="#"><img src="icons/menu.png"></a></span>
+		</button>
+
+		
+		<a class="navbar-brand" href="#"><img src="assets/logo.png" alt=""></a>
+	 	
+	 	<div class="collapse navbar-collapse" id="myNavbar">
+			<ul class="nav navbar-nav navbar-right" >		
+				      
+				<li><a href="activities.html">
+				    <p><img src="icons/activities.png"></p>
+				    <p> Games </p>
+				</a></li> 
+			      
+			    <li><a href="stories.html"> 
+			      	<p><img src="icons/stories.png"></p>
+			      	<p> Stories </p>
+			    </a></li>
+
+		      	<li><a href="videos.html"> 
+		      		<p><img src="icons/videos.png"></p>
+		      		<p> Videos </p>
+		      	</a></li>
+
+	      		<li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+		          	<p><img src="icons/login.png"></p>
+				    <p> Log in </p></a>
+
+		          <ul class="dropdown-menu dropdown-lr animated slideInRight" role="menu">
+		            <div class="col-lg-12" id="loginform">
+		              <div class="text-center">
+		                <h3>Log In</h3></div>
+		              <form action="http://phpoll.com/login/process" method="post" role="form" autocomplete="off">
+		                <div class="form-group">
+		                  <label for="username">Username</label>
+		                  <input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="" autocomplete="off">
+		                </div>
+
+		                <div class="form-group">
+		                  <label for="password">Password</label>
+		                  <input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password" autocomplete="off">
+		                </div>
+
+		                <div class="form-group">
+		                  <div class="row">
+		                    <div class="col-xs-7">
+		                      <input type="checkbox" tabindex="3" name="remember" id="remember">
+		                      <label for="remember">Remember Me</label>
+		                    </div>
+		                    <div class="col-xs-5 pull-right">
+		                      <input type="submit" name="login-submit" id="login-submit" tabindex="4" class="form-control btn btn-success" value="Log In">
+		                    </div>
+		                
+			                <div class="col-xs-12 text-center pull-left" id="forgotPass">
+			                    <a href="#" tabindex="5" class="forgot-password"><strong>Forgot Password?</strong></a>
+			                </div>
+			              </div>
+		                </div>
+
+		                <div class="form-group" >
+		                  <div class="row">
+		                    <div class="col-lg-12">
+		                      <hr id="log-line">
+		                      <div class="text-center" id="loglink">
+								New here? <a href="#" id="Joinus"><strong>Join Us</strong></a>
+							  </div>
+		                    </div>
+		                  </div>
+		                </div>
+		                <input type="hidden" class="hide" name="token" id="token" value="a465a2791ae0bae853cf4bf485dbe1b6">
+		              </form>
+		            </div>
+				</li> 	  		
+	  		</ul>
+	  	</div>
+  	</div>
+</nav>
+
+<br>
+
+<div id="carousel-example" class="carousel slide" data-ride="carousel">
+
+  <div class="carousel-inner">
+    <div class="item active image-widescreen">
+      <a href="#"><img src="assets2/drawing.jpeg"></a>
+    </div>
+    <div class="item image-widescreen">
+      <a href="#"><img src="assets2/learn.jpeg"></a>
+    </div>
+    <div class="item image-widescreen">
+      <a href="#"><img src="assets2/tablet.jpeg"></a>
+    </div>
+  </div>
+
+  <a class="left carousel-control" href="#carousel-example" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+
+<div class="row about-body">
+	<div class="col-lg-6 col-md-6 col-sm-12">
+		<div class="container-fluid pull-left" id="writeup1">
+			<div class="about">
+				<h2>About this Page</h2>
+			    
+			    <div class="about-content">
+			      <h3>Juan Dela Cruz</h3>
+			      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					</p>
+			    </div>
+			</div>
+		</div>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12">
+		<!-- <div class="container"> -->
+			<div class="about-image1 pull-right">
+	      <img src="assets2/girl-laptop.jpeg" class="img-responsive">
+	    </div>
+	<!-- </div> -->
+	</div>	
+</div>
+
+<div class="row about-body">
+	<div class="col-lg-6 col-md-6 col-sm-12 container about-image2 pull-left">
+		<!-- <div class="container about-image2 pull-left"> -->
+	      <img src="assets2/hand-color.jpeg" class="img-responsive">
+	    <!-- </div> -->
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12">
+		<div class="container" id="writeup2">
+			<div class="about">
+				<h2>Note to Parents and Educators</h2>
+
+				<div class="about-content">
+			      <h3>Juan Dela Cruz</h3>
+				      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						</p>
+				    </div>
+				</div>
+			</div>
+		</div>	
+	</div>
+</div>
+
+
+
+<div class="row">
+	<div class="col-md-8 col-sm-12">
+		<div class="container text-center pull-left" id="writeup3">
+			<h2>About the Author</h2>
+		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+		</div>
+	</div>
+	<div class="col-md-4 col-sm-12">
+		<div class="container-fluid text-center pull-right" id="about-image3">
+		    <!-- <div class="about-image3"> -->
+		      <img src="http://placekitten.com/g/300/300">
+		    <!-- </div> -->
+		</div>
+	</div>
+	
+</div>
+
+<div class="row" style="margin-top:50px;">
+	<div class="col-sm-12" id="commentRow">
+		<h2> Comments </h2>
+
+		<div class="row">
+			<div class="col-md-4 col-xs-12 col-sm-12">
+				  <div class="panel panel-default" id="comments1">	
+				    <div class="panel-body" id="comment-body">
+				    	<div class="media">
+						    <div class="media-left">
+						      <img src="http://placekitten.com/g/150/150" class="media-object" style="width:100px; height:100px">
+						    </div>
+						    <div class="media-body">
+						      <h4 class="media-heading">Juan Dela Cruz<p><small><i>Posted on March 08, 2018</i></small></p></h4>
+						      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						    </div>
+						</div>
+				    </div>
+				</div>
+			</div>
+			<div class="col-md-4 col-xs-12 col-sm-12">
+				  <div class="panel panel-default" id="comments1">	
+				    <div class="panel-body" id="comment-body">
+				    	<div class="media">
+						    <div class="media-left">
+						      <img src="http://placekitten.com/g/150/150" class="media-object" style="width:100px; height:100px">
+						    </div>
+						    <div class="media-body">
+						      <h4 class="media-heading">Juan Dela Cruz
+						      	<p><small><i>Posted on March 08, 2018</i></small></p></h4>
+						      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						    </div>
+						</div>
+				    </div>
+				</div>
+			</div>
+			<div class="col-md-4 col-xs-12 col-sm-12">
+				  <div class="panel panel-default" id="comments1">	
+				    <div class="panel-body" id="comment-body">
+				    	<div class="media">
+						    <div class="media-left">
+						      <img src="http://placekitten.com/g/150/150" class="media-object" style="width:100px; height:100px">
+						    </div>
+						    <div class="media-body">
+						      <h4 class="media-heading">Juan Dela Cruz<p><small><i>Posted on March 08, 2018</i></small></p></h4>
+						      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						    </div>
+						</div>
+				    </div>
+				</div>
+			</div>
+		</div> <!-- end of comments-->
+	
+	 <div class="row">
+	 	<div class="col-md-12 col-sm-12 col-xs-12">
+		<div class="container form-group" id="comment-field">
+		  <textarea class="form-control" rows="5" id="comment" placeholder="Add your comments here . . ."></textarea>
+		  <span class="icon-input-btn" id="submit"><a href="#"><input type="submit" class="btn btn-default" value="Submit Comment"></a></span>
+		</div>
+		</div>
+	</div>
+
+	</div>
+</div> <!-- end of comment row -->
+
+
+<!-- Footer -->
+<footer class="footer-distributed">
+
+	<div class="footer-right">
+		<div class="foot-wrap">
+			<!-- <a href="https://www.facebook.com/"> -->
+			<span class="fa-stack fa-2x">
+			  <i class="fa fa-circle fa-stack-2x"></i>
+			  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+			</span>
+			<!-- </a> -->
+		</div>
+		<div class="foot-wrap">
+			<span class="fa-stack fa-2x">
+			  <i class="fa fa-circle fa-stack-2x"></i>
+			  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+			</span>
+		</div>
+		<div class="foot-wrap">
+			<span class="fa-stack fa-2x">
+			  <i class="fa fa-circle fa-stack-2x"></i>
+			  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+			</span>
+		</div>
+		<div class="foot-wrap">
+			<span class="fa-stack fa-2x">
+			  <i class="fa fa-circle fa-stack-2x"></i>
+			  <i class="fa fa-google fa-stack-1x fa-inverse"></i>
+			</span>
+		</div>
+
+	</div>
+
+	<div class="footer-left">
+		<p class="footer-links">
+			<a href="activities.html">Games</a> . 
+			<a href="stories.html">Stories</a> . 
+			<a href="videos.html">Videos</a> . 
+			<a href="#">Contact Us</a> . 
+			<a href="#" data-toggle="modal" data-target="#myModal">Disclaimer</a></p>	
+
+			<!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button> -->
+
+			  <!-- Modal -->
+			  <div class="modal fade" id="myModal" role="dialog">
+			    <div class="modal-dialog modal-md">
+			    
+					<!-- Modal content-->
+					<div class="modal-content">
+						<div class="modal-header">
+							<h4 class="modal-title">Disclaimer</h4>
+						</div>
+						<div class="modal-body">
+							<p>No copyright infringement is intended. This is only for educational purposes and not for profit. Some asset/s used are not owned by the developer/s unless otherwise stated; the credit goes to the owner.</p>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+			      
+			    </div>
+			  </div>
+
+		<p>Reah Mae Supnet © 2018</p>
+	</div>
+
+</footer>
+
+
+</div>
+</div> <!-- end of parallax -->
+
+
+<!-- jQuery Bootstrap plugins -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!-- include all compiled plugins -->
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>

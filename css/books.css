@@ -1,0 +1,546 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*body {
+    background-image: url("../assets2");
+}*/
+
+.parallax {
+    /* The image used */
+    background-image: url("../assets2/sketch.jpg");
+
+    /* Set a specific height */
+    min-height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar-brand img {
+    width: 30%;
+    height: auto;
+}
+
+nav {
+    background-color: #6f37ab;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.3  );
+}
+
+ul {
+       list-style-type: none; 
+}
+
+li {
+    float:left;
+}
+
+.navbar-nav li a{
+    display: inline-block;
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    color: #d6cef0;
+    text-decoration: none;
+    font-size: 250%;
+    font-family:'Asap', sans-serif;
+}
+
+.dropdown-menu {
+    padding: 0 !important;
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: #daf2c2 !important;
+}
+
+#loginform {
+    background-color: #daf2c2;
+}
+
+.nav li a:hover, #icon-name:hover {
+    background-color: #daf2c2 !important;
+    text-decoration: none;
+    color:#200589;
+} 
+
+#loglink a, #loglink p , #loglink hr{
+    margin-top: -10px !important;
+}
+
+#forgotPass {
+    margin-bottom: 10px;
+}
+
+#loglink a, #forgotPass a {
+    font-size: 15px !important;
+    color:black !important;
+    
+}
+
+#loglink a:hover, #forgotPass a:hover {
+    color:#c516a3 !important;
+}
+
+.signup {
+    float: right;
+}
+
+
+ul.dropdown-lr {
+  width: 300px;
+}
+
+#log-line {
+    margin-top: -10px; margin-bottom: 10px;
+}
+
+#Joinus {
+    padding: 0px;
+} 
+
+/*end of nav*/
+
+
+/*Books Page*/
+
+#story-jumbo {
+    width:100%;
+    height:500px;
+    max-height: 550px;
+    margin-top: 50px;
+    background: url("../assets2/openbk.jpeg");
+    background-size: cover;
+    /*opacity: 0.9;*/
+    color: rgb(255,255,255);
+    border-bottom: 10px solid #5f0f0f;
+    font-family: 'Capriola', sans-serif;
+}
+
+#story-jumbo h1 {
+    font-size: 90px;
+    color:yellow;
+}
+
+#story-jumbo p {
+    font-size: 45px;
+    color: lightyellow;
+}
+
+.reveal {
+width: 300px;
+height: 300px;
+margin: 50px;
+float: left;
+}
+
+.reveal p {
+font: 45px/300px Capriola, Arial, sans-serif;
+text-align: center;
+-ms-filter:”progid:DXImageTransform.Microsoft.Alpha(Opacity=0)”;
+filter: alpha(opacity=0);
+opacity: 0;
+text-decoration: none !important;
+
+-webkit-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+-ms-transition: all 0.3s ease;
+transition: all 0.3s ease;
+}
+
+.story1 {
+background: url("../covers/Untitled.jpg") 0px 150px, url("../covers/Untitled.jpg") 0px -225px, #feff65;
+background-repeat: no-repeat;
+-webkit-transition: background-position 0.3s ease;
+-moz-transition: background-position 0.3s ease;
+-o-transition: background-position 0.3s ease;
+-ms-transition: background-position 0.3s ease;
+transition: background-position 0.3s ease;
+z-index: -1;
+}
+
+.story1:hover {
+background: url("../covers/Untitled.jpg") 0px 210px, url("../covers/Untitled.jpg") 0px -285px, #feff65;
+background-repeat: no-repeat;
+text-decoration: none !important;
+}
+
+.story2 {
+background: url("../covers/cover2.jpg") 0px 150px, url("../covers/cover2.jpg") 0px -225px, #feff65;
+background-repeat: no-repeat;
+-webkit-transition: background-position 0.3s ease;
+-moz-transition: background-position 0.3s ease;
+-o-transition: background-position 0.3s ease;
+-ms-transition: background-position 0.3s ease;
+transition: background-position 0.3s ease;
+z-index: -1;
+}
+
+.story2:hover {
+background: url("../covers/cover2.jpg") 0px 210px, url("../covers/cover2.jpg") 0px -285px, #feff65;
+background-repeat: no-repeat;
+text-decoration: none !important;
+}
+
+.story3 {
+background: url("../covers/cover3.jpg") 0px 150px, url("../covers/cover3.jpg") 0px -225px, #feff65;
+background-repeat: no-repeat;
+-webkit-transition: background-position 0.3s ease;
+-moz-transition: background-position 0.3s ease;
+-o-transition: background-position 0.3s ease;
+-ms-transition: background-position 0.3s ease;
+transition: background-position 0.3s ease;
+z-index: -1;
+}
+
+.story3:hover {
+background: url("../covers/cover3.jpg") 0px 210px, url("../covers/cover3.jpg") 0px -285px, #feff65;
+background-repeat: no-repeat;
+text-decoration: none !important;
+}
+
+.story4 {
+background: url("../covers/cover4.jpg") 0px 150px, url("../covers/cover4.jpg") 0px -225px, #feff65;
+background-repeat: no-repeat;
+-webkit-transition: background-position 0.3s ease;
+-moz-transition: background-position 0.3s ease;
+-o-transition: background-position 0.3s ease;
+-ms-transition: background-position 0.3s ease;
+transition: background-position 0.3s ease;
+z-index: -1;
+}
+
+.story4:hover {
+background: url("../covers/cover4.jpg") 0px 210px, url("../covers/cover4.jpg") 0px -285px, #feff65;
+background-repeat: no-repeat;
+text-decoration: none !important;
+}
+
+.story5 {
+background: url("../covers/cover5.jpg") 0px 150px, url("../covers/cover5.jpg") 0px -225px, #feff65;
+background-repeat: no-repeat;
+-webkit-transition: background-position 0.3s ease;
+-moz-transition: background-position 0.3s ease;
+-o-transition: background-position 0.3s ease;
+-ms-transition: background-position 0.3s ease;
+transition: background-position 0.3s ease;
+z-index: -1;
+}
+
+.story5:hover {
+background: url("../covers/cover5.jpg") 0px 210px, url("../covers/cover5.jpg") 0px -285px, #feff65;
+background-repeat: no-repeat;
+text-decoration: none !important;
+}
+
+
+.story6 {
+background: url("../covers/cover6.jpg") 0px 150px, url("../covers/cover6.jpg") 0px -225px, #feff65;
+background-repeat: no-repeat;
+-webkit-transition: background-position 0.3s ease;
+-moz-transition: background-position 0.3s ease;
+-o-transition: background-position 0.3s ease;
+-ms-transition: background-position 0.3s ease;
+transition: background-position 0.3s ease;
+z-index: -1;
+}
+
+.story6:hover {
+background: url("../covers/cover6.jpg") 0px 210px, url("../covers/cover6.jpg") 0px -285px, #feff65;
+background-repeat: no-repeat;
+text-decoration: none !important;
+}
+
+.story7 {
+background: url("../covers/cover7.jpg") 0px 150px, url("../covers/cover7.jpg") 0px -225px, #feff65;
+background-repeat: no-repeat;
+-webkit-transition: background-position 0.3s ease;
+-moz-transition: background-position 0.3s ease;
+-o-transition: background-position 0.3s ease;
+-ms-transition: background-position 0.3s ease;
+transition: background-position 0.3s ease;
+z-index: -1;
+}
+
+.story7:hover {
+background: url("../covers/cover7.jpg") 0px 210px, url("../covers/cover7.jpg") 0px -285px, #feff65;
+background-repeat: no-repeat;
+text-decoration: none !important;
+}
+
+.story8 {
+background: url("../covers/cover8.jpg") 0px 150px, url("../covers/cover8.jpg") 0px -225px, #feff65;
+background-repeat: no-repeat;
+-webkit-transition: background-position 0.3s ease;
+-moz-transition: background-position 0.3s ease;
+-o-transition: background-position 0.3s ease;
+-ms-transition: background-position 0.3s ease;
+transition: background-position 0.3s ease;
+z-index: -1;
+}
+
+.story8:hover {
+background: url("../covers/cover8.jpg") 0px 210px, url("../covers/cover8.jpg") 0px -285px, #feff65;
+background-repeat: no-repeat;
+text-decoration: none !important;
+}
+
+.story9 {
+background: url("../covers/cover9.jpg") 0px 150px, url("../covers/cover9.jpg") 0px -225px, #feff65;
+background-repeat: no-repeat;
+-webkit-transition: background-position 0.3s ease;
+-moz-transition: background-position 0.3s ease;
+-o-transition: background-position 0.3s ease;
+-ms-transition: background-position 0.3s ease;
+transition: background-position 0.3s ease;
+z-index: -1;
+}
+
+.story9:hover {
+background: url("../covers/cover9.jpg") 0px 210px, url("../covers/cover9.jpg") 0px -285px, #feff65;
+background-repeat: no-repeat;
+text-decoration: none !important;
+}
+
+.story10 {
+background: url("../covers/cover10.jpg") 0px 150px, url("../covers/cover10.jpg") 0px -225px, #feff65;
+background-repeat: no-repeat;
+-webkit-transition: background-position 0.3s ease;
+-moz-transition: background-position 0.3s ease;
+-o-transition: background-position 0.3s ease;
+-ms-transition: background-position 0.3s ease;
+transition: background-position 0.3s ease;
+z-index: -1;
+}
+
+.story10:hover {
+background: url("../covers/cover10.jpg") 0px 210px, url("../covers/cover10.jpg") 0px -285px, #feff65;
+background-repeat: no-repeat;
+text-decoration: none !important;
+}
+
+.story11 {
+background: url("../covers/Untitled.jpg") 0px 150px, url("../covers/Untitled.jpg") 0px -225px, #feff65;
+background-repeat: no-repeat;
+-webkit-transition: background-position 0.3s ease;
+-moz-transition: background-position 0.3s ease;
+-o-transition: background-position 0.3s ease;
+-ms-transition: background-position 0.3s ease;
+transition: background-position 0.3s ease;
+z-index: -1;
+}
+
+.story11:hover {
+background: url("../covers/Untitled.jpg") 0px 210px, url("../covers/Untitled.jpg") 0px -285px, #feff65;
+background-repeat: no-repeat;
+text-decoration: none !important;
+}
+
+
+.story12 {
+background: url("../covers/Untitled.jpg") 0px 150px, url("../covers/Untitled.jpg") 0px -225px, #feff65;
+background-repeat: no-repeat;
+-webkit-transition: background-position 0.3s ease;
+-moz-transition: background-position 0.3s ease;
+-o-transition: background-position 0.3s ease;
+-ms-transition: background-position 0.3s ease;
+transition: background-position 0.3s ease;
+z-index: -1;
+}
+
+.story12:hover {
+background: url("../covers/Untitled.jpg") 0px 210px, url("../covers/Untitled.jpg") 0px -285px, #feff65;
+background-repeat: no-repeat;
+text-decoration: none !important;
+}
+
+.reveal:hover p {
+-ms-filter:”progid:DXImageTransform.Microsoft.Alpha(Opacity=100)”;
+filter: alpha(opacity=100);
+opacity: 1;
+cursor: pointer;
+text-decoration: none !important;
+}
+
+.reveal a:hover, .reveal a:focus {
+  text-decoration: none !important;
+  color:black;
+}
+
+#readme p {
+  font-size: 1em;
+  line-height: 20px;
+}
+
+#book-column {
+  text-align: center !important;
+  padding: 0;
+  margin: 30px auto;
+}
+
+
+#book-panel {
+  border: 10px solid #2fd2f9;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  display: inline-block !important;
+  height: 305px;
+  margin: auto;
+  float: none;
+}
+
+/*#book-panel p {
+  font-family: 'Asap', sans-serif, bold;   
+}*/
+
+
+#shelf {
+    width:100%;
+    height: 365px;
+    border-bottom:10px solid #604343;
+    border-top:5px solid #604343;
+    /*border-top:10px solid brown;*/
+    background-color: rgba(196,77,51,0.8); /*(204,0,0, 0.6);*/
+    margin-top:60px;
+    margin-bottom: -10px; 
+}
+
+
+.modal-footer {
+    align-items: center;
+}
+
+.modal-content {
+    background-color: lightgreen;
+}
+
+/*Footer*/
+
+.footer-distributed{
+    background-color: #6f37ab;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.3  );
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: normal 16px sans-serif;
+
+    padding: 30px 50px;
+    margin-top: 100px;
+    
+    /*position:absolute;*/
+    bottom: 0;
+    height:auto;
+
+
+}
+
+.footer-distributed .footer-left p{
+    color:  #ffffff;
+    font-size: 14px;
+    margin: 0;
+}
+
+/* Footer links */
+
+.footer-distributed p.footer-links{
+    font-size:18px;
+    font-weight: bold;
+    color:  #d6cef0;
+    margin: 0 0 10px;
+    padding: 0;
+}
+
+.footer-distributed p.footer-links a{
+    display:inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color:  inherit;
+    font-family: 'Asap', sans-serif;
+    font-size: 150%;
+}
+
+.footer-distributed p.footer-links a:hover {
+    color: #ffcfcf;
+}
+
+.footer-distributed .footer-right{
+    float: right;
+    margin-top: 6px;
+    max-width: auto;
+}
+
+.footer-distributed .footer-right p {
+    color:black;
+}
+
+.footer-distributed .footer-right a{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    background-color:  #33383b;
+    border-radius: 2px;
+
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+
+    margin-left: 3px;
+}
+
+.foot-wrap:hover .fa-stack{
+    color: blue;
+    transition: 0.9s;
+    transform: rotateY(360deg);
+}
+.foot-wrap{
+    display: inline-block;
+    /*width: 200px;*/
+    /*border: 1px solid;*/
+    overflow: hidden;
+    text-align: center;
+}
+
+#disclaimer-note p {
+    color:black;
+}
+
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 600px) {
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-right{
+        text-align: center;
+    }
+
+    .footer-distributed .footer-right{
+        float: none;
+        margin: 0 auto 20px;
+    }
+
+    .footer-distributed .footer-left p.footer-links{
+        line-height: 1.8;
+    }
+}
+
+@media (max-width: 450px) {
+
+    .navbar-brand img {
+    visibility: hidden;
+    }
+
+    #story-jumbo p {
+        visibility: hidden;
+    }
+    
+                
+}

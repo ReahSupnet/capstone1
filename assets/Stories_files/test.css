@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*body {
+    background-image: url("/Users/haermae/Tuitt/reahmae-supnet/Capstone1/assets/dotsbg.png");
+}*/
+
+nav {
+    background-color: #c516a3;
+}
+
+ul {
+       list-style-type: none; 
+}
+
+li {
+    float:left;
+}
+
+.navbar-nav li a{
+    display: inline-block;
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.dropdown-menu {
+    padding: 0 !important;
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: #daf2c2 !important;
+    color: black;
+}
+
+#loginform {
+    background-color: #daf2c2;
+}
+
+.nav li a:hover, #icon-name:hover {
+    background-color: #daf2c2 !important;
+    text-decoration: none;
+    color:black;
+} 
+
+#loglink a, #loglink p , #loglink hr{
+    margin-top: -10px !important;
+}
+
+#forgotPass {
+    margin-bottom: 10px;
+}
+
+#loglink a, #forgotPass a {
+    font-size: 15px !important;
+    color:black !important;
+    
+}
+
+#loglink a:hover, #forgotPass a:hover {
+    color:#c516a3 !important;
+}
+
+.signup {
+    float: right;
+}
+
+
+ul.dropdown-lr {
+  width: 300px;
+}
+
+/*end of nav*/
+
+/*Videos page*/
+.container {
+padding-right: 15px;
+padding-left: 15px;
+margin-right: auto;
+margin-left: auto;
+}
+
+.video-list-thumbs > li > a:hover {
+box-shadow: 0 2px 5px rgba(0,0,0,.3);
+text-decoration: none;
+}
+
+.video-list-thumbs > li > a {
+display: block;
+position: relative;
+background-color: #111;
+color: #fff;
+padding: 8px;
+border-radius: 3px transition:all 500ms ease-in-out;
+border-radius: 4px;
+}
+
+.video-list-thumbs .glyphicon-play-circle {
+font-size: 60px;
+opacity: 0.6;
+position: absolute;
+right: 39%;
+top: 31%;
+text-shadow: 0 1px 3px rgba(0,0,0,.5);
+transition: all 500ms ease-in-out;
+}
+
+a:hover {
+outline: 0;
+}
+
+/*Footer*/
+
+.footer-distributed{
+    background-color: #c516a3;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: normal 16px sans-serif;
+
+    padding: 30px 50px;
+    margin-top: 80px;
+}
+
+.footer-distributed .footer-left p{
+    color:  #ffffff;
+    font-size: 14px;
+    margin: 0;
+}
+
+/* Footer links */
+
+.footer-distributed p.footer-links{
+    font-size:18px;
+    font-weight: bold;
+    color:  #ffffff;
+    margin: 0 0 10px;
+    padding: 0;
+}
+
+.footer-distributed p.footer-links a{
+    display:inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color:  inherit;
+}
+
+.footer-distributed .footer-right{
+    float: right;
+    margin-top: 6px;
+    max-width: auto;
+}
+
+.footer-distributed .footer-right a{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    background-color:  #33383b;
+    border-radius: 2px;
+
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+
+    margin-left: 3px;
+}
+
+.foot-wrap:hover .fa-stack{
+    color: blue;
+    transition: 0.9s;
+    transform: rotateY(360deg);
+}
+.foot-wrap{
+    display: inline-block;
+    /*width: 200px;*/
+    /*border: 1px solid;*/
+    overflow: hidden;
+    text-align: center;
+}
+
+/*.fa-circle {
+    background-color: grey;
+}*/
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 600px) {
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-right{
+        text-align: center;
+    }
+
+    .footer-distributed .footer-right{
+        float: none;
+        margin: 0 auto 20px;
+    }
+
+    .footer-distributed .footer-left p.footer-links{
+        line-height: 1.8;
+    }
+}
+
+

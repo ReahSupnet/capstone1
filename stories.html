@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">	
+	<meta http-equiv="X-UA-Compatible" content="IE-Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+	<title> Stories </title>
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/books.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Asap:600|Capriola|Poppins" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://use.fontawesome.com/c5d1608731.css" media="all" rel="stylesheet">
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="css/animate.css">
+
+</head>
+<body>
+
+<div class="parallax">
+<div class="parallax-body">
+
+<nav>
+    <div class="container-fluid">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span><a href="#"><img src="icons/menu.png"></a></span>
+        </button>
+
+        <a class="navbar-brand" href="#"><img src="assets/logo.png" alt=""></a>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right" >       
+                      
+                <li><a href="about.html"> 
+                    <p><img src="icons/home.png"></p>
+                    <p> Home </p>
+                </a></li>
+
+                <li><a href="activities.html">
+                    <p><img src="icons/activities.png"></p>
+                    <p> Games </p>
+                </a></li> 
+
+                <li><a href="videos.html"> 
+                    <p><img src="icons/videos.png"></p>
+                    <p> Videos </p>
+                </a></li>
+
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    <p><img src="icons/login.png"></p>
+                    <p> Log in </p></a>
+
+                  <ul class="dropdown-menu dropdown-lr animated slideInRight" role="menu">
+                    <div class="col-lg-12" id="loginform">
+                      <div class="text-center">
+                        <h3>Log In</h3></div>
+                      <form  action="" method="post" role="form" autocomplete="off">
+                        <div class="form-group">
+                          <label for="username">Username</label>
+                          <input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="" autocomplete="off">
+                        </div>
+
+                        <div class="form-group">
+                          <label for="password">Password</label>
+                          <input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password" autocomplete="off">
+                        </div>
+
+                        <div class="form-group">
+                          <div class="row">
+                            <div class="col-xs-7">
+                              <input type="checkbox" tabindex="3" name="remember" id="remember">
+                              <label for="remember">Remember Me</label>
+                            </div>
+                            <div class="col-xs-5 pull-right">
+                              <input type="submit" name="login-submit" id="login-submit" tabindex="4" class="form-control btn btn-success" value="Log In">
+                            </div>
+                        
+                            <div class="col-xs-12 text-center pull-left" id="forgotPass">
+                                <a href="#" tabindex="5" class="forgot-password"><strong>Forgot Password?</strong></a>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="form-group" >
+                          <div class="row">
+                            <div class="col-lg-12">
+                              <hr id="log-line">
+                              <div class="text-center" id="loglink">
+                                New here? <a href="#" id="Joinus"><strong>Join Us</strong></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <input type="hidden" class="hide" name="token" id="token" value="a465a2791ae0bae853cf4bf485dbe1b6">
+                      </form>
+                    </div>
+                </li>           
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<br>
+
+<div class="row">
+    <div class="container col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="jumbotron" id="story-jumbo">
+          <h1>Time for Reading</h1>  
+          <p>"Reading is Dreaming with Open Eyes!"</p>
+        </div>
+    </div>
+</div> 
+
+
+<!-- Books Section -->
+<div class="row">
+  <div class="col-lg-12" id="shelf" >
+      <!-- <div class=" animated fadeInRight">  -->
+        <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12" id="book-column">
+          <div class="reveal story1" id="book-panel">
+            <a href="#" data-toggle="modal" data-target="#bookModal1"><p>Read Me</p></a>
+            <div class="modal fade" id="bookModal1" role="dialog">
+              <div class="modal-dialog modal-md">
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button> 
+                    <h4 class="modal-title">ANNOUNCEMENT</h4>
+                  </div>
+
+                  <div class="modal-body" id="readme">
+                    <p>This book will be available soon!</p>
+                  </div>
+
+                  <div class="modal-footer">
+                    <p><img src="covers/book1.jpg"></p>   
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12" id="book-column">
+          <div class="reveal story2" id="book-panel">
+            <a href="#" data-toggle="modal" data-target="#bookModal2" ><p>Read Me</p></a>
+            <div class="modal fade" id="bookModal2" role="dialog">
+              <div class="modal-dialog modal-md">
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button> 
+                    <h4 class="modal-title">ANNOUNCEMENT</h4>
+                  </div>
+
+                  <div class="modal-body" id="readme">
+                    <p>This book will be available soon!</p>
+                  </div>
+
+                  <div class="modal-footer">
+                    <p><img src="covers/book2.jpg"></p>   
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12" id="book-column">
+          <div class="reveal story3" id="book-panel">
+            <a href="#" data-toggle="modal" data-target="#bookModal3" ><p>Read Me</p></a>
+            <div class="modal fade" id="bookModal3" role="dialog">
+              <div class="modal-dialog modal-md">
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button> 
+                    <h4 class="modal-title">ANNOUNCEMENT</h4>
+                  </div>
+
+                  <div class="modal-body" id="readme">
+                    <p>This book will be available soon!</p>
+                  </div>
+
+                  <div class="modal-footer">
+                    <p><img src="covers/book3.jpg"></p>   
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12" id="book-column">
+          <div class="reveal story4" id="book-panel">
+            <a href="#" data-toggle="modal" data-target="#bookModal4" ><p>Read Me</p></a>
+            <div class="modal fade" id="bookModal4" role="dialog">
+              <div class="modal-dialog modal-md">
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button> 
+                    <h4 class="modal-title">ANNOUNCEMENT</h4>
+                  </div>
+
+                  <div class="modal-body" id="readme">
+                    <p>This book will be available soon!</p>
+                  </div>
+
+                  <div class="modal-footer">
+                    <p><img src="covers/book4.jpg"></p>  
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>  
+    <!-- </div> -->
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-lg-12" id="shelf">
+    <!-- <div class="wrapper animated fadeInLeft">  -->
+      <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12" id="book-column">
+        <div class="reveal story5" id="book-panel">
+          <a href="#" data-toggle="modal" data-target="#bookModal5" ><p>Read Me</p></a>
+          <div class="modal fade" id="bookModal5" role="dialog">
+            <div class="modal-dialog modal-md">
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button> 
+                  <h4 class="modal-title">ANNOUNCEMENT</h4>
+                </div>
+
+                <div class="modal-body" id="readme">
+                  <p>This book will be available soon!</p>
+                </div>
+
+                <div class="modal-footer">
+                  <p><img src="covers/book5.jpg"></p>   
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12" id="book-column">
+        <div class="reveal story6" id="book-panel">
+          <a href="#" data-toggle="modal" data-target="#bookModal6" ><p>Read Me</p></a>
+          <div class="modal fade" id="bookModal6" role="dialog">
+            <div class="modal-dialog modal-md">
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button> 
+                  <h4 class="modal-title">ANNOUNCEMENT</h4>
+                </div>
+
+                <div class="modal-body" id="readme">
+                  <p>This book will be available soon!</p>
+                </div>
+
+                <div class="modal-footer">
+                  <p><img src="covers/book6.jpg"></p>   
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12" id="book-column">
+        <div class="reveal story7" id="book-panel">
+          <a href="#" data-toggle="modal" data-target="#bookModal7" ><p>Read Me</p></a>
+          <div class="modal fade" id="bookModal7" role="dialog">
+            <div class="modal-dialog modal-md">
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button> 
+                  <h4 class="modal-title">ANNOUNCEMENT</h4>
+                </div>
+
+                <div class="modal-body" id="readme">
+                  <p>This book will be available soon!</p>
+                </div>
+
+                <div class="modal-footer">
+                  <p><img src="covers/book7.jpg"></p>   
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12" id="book-column">
+        <div class="reveal story8" id="book-panel">
+          <a href="#" data-toggle="modal" data-target="#bookModal8" ><p>Read Me</p></a>
+          <div class="modal fade" id="bookModal8" role="dialog">
+            <div class="modal-dialog modal-md">
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button> 
+                  <h4 class="modal-title">ANNOUNCEMENT</h4>
+                </div>
+
+                <div class="modal-body" id="readme">
+                  <p>This book will be available soon!</p>
+                </div>
+
+                <div class="modal-footer">
+                  <p><img src="covers/book8.jpg"></p>   
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- </div>   -->
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-lg-12" id="shelf">
+    <!-- <div class="wrapper animated fadeInRight">  -->
+      <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12" id="book-column">
+        <div class="reveal story9" id="book-panel">
+          <a href="#" data-toggle="modal" data-target="#bookModal9" ><p>Read Me</p></a>
+          <div class="modal fade" id="bookModal9" role="dialog">
+            <div class="modal-dialog modal-md">
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button> 
+                  <h4 class="modal-title">ANNOUNCEMENT</h4>
+                </div>
+
+                <div class="modal-body" id="readme">
+                  <p>This book will be available soon!</p>
+                </div>
+
+                <div class="modal-footer">
+                  <p><img src="covers/book9.jpg"></p>   
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12" id="book-column">
+        <div class="reveal story10" id="book-panel">
+          <a href="#" data-toggle="modal" data-target="#bookModal10"><p>Read Me</p></a>
+          <div class="modal fade" id="bookModal10" role="dialog">
+            <div class="modal-dialog modal-md">
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button> 
+                  <h4 class="modal-title">ANNOUNCEMENT</h4>
+                </div>
+
+                <div class="modal-body" id="readme">
+                  <p>This book will be available soon!</p>
+                </div>
+
+                <div class="modal-footer">
+                  <p><img src="covers/book10.jpg"></p>   
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12" id="book-column">
+        <div class="reveal story11" id="book-panel">
+          <a href="#" data-toggle="modal" data-target="#bookModal11" ><p>Read Me</p></a>
+          <div class="modal fade" id="bookModal11" role="dialog">
+            <div class="modal-dialog modal-md">
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button> 
+                  <h4 class="modal-title">ANNOUNCEMENT</h4>
+                </div>
+
+                <div class="modal-body" id="readme">
+                  <p>This book will be available soon!</p>
+                </div>
+
+                <div class="modal-footer">
+                  <p><img src="covers/book11.jpg"></p>   
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12" id="book-column">
+        <div class="reveal story12" id="book-panel">
+          <a href="#" data-toggle="modal" data-target="#bookModal12" ><p>Read Me</p></a>
+            <div class="modal fade" id="bookModal12" role="dialog">
+                <div class="modal-dialog modal-md">
+                  <!-- Modal content-->
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal">&times;</button> 
+                      <h4 class="modal-title">ANNOUNCEMENT</h4>
+                    </div>
+
+                    <div class="modal-body" id="readme">
+                      <p>This book will be available soon!</p>
+                    </div>
+
+                    <div class="modal-footer">
+                      <p><img src="covers/book12.jpg"></p>   
+                    </div>
+                  </div>
+                </div> 
+            </div>
+        </div>      
+      </div>
+    <!-- </div> -->
+  </div>
+</div> <!-- End of Story Section -->
+
+
+
+<!-- Footer -->
+<footer class="footer-distributed">
+
+    <div class="footer-right">
+        
+        <div class="foot-wrap">
+            <span class="fa-stack fa-2x">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+            </span>
+        </div>
+        <div class="foot-wrap">
+            <span class="fa-stack fa-2x">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+            </span>
+        </div>
+        <div class="foot-wrap">
+            <span class="fa-stack fa-2x">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+            </span>
+        </div>
+        <div class="foot-wrap">
+            <span class="fa-stack fa-2x">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-google fa-stack-1x fa-inverse"></i>
+            </span>
+        </div>
+
+    </div>
+
+    <div class="footer-left">
+        <p class="footer-links">
+            <a href="about.html">Home</a> . 
+            <a href="activities.html">Games</a> . 
+            <a href="videos.html">Videos</a> . 
+            <a href="#">Contact Us</a> . 
+            <a href="#" data-toggle="modal" data-target="#myModal">Disclaimer</a>
+        </p>
+
+        <div class="modal fade" id="myModal" role="dialog">
+                <div class="modal-dialog modal-md">
+                
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Disclaimer</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>No copyright infringement is intended. This is only for educational purposes and not for profit. Some asset/s used are not owned by the developer/s unless otherwise stated; the credit goes to the owner.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default center-block" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                  
+                </div>
+              </div>
+
+        <p>Reah Mae Supnet © 2018</p>
+    </div>
+
+
+</footer>
+
+</div>
+</div> 
+<!-- end of parallax -->
+
+<!-- jQuery Bootstrap plugi ns -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!-- include all compiled plugins -->
+<script src="js/bootstrap.min.js"></script>
+
+<script type="js/hover.js"></script>
+
+
+
+</body>
+</html>

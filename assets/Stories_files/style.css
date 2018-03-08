@@ -1,0 +1,553 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*body {
+    background-image: url("/Users/haermae/Tuitt/reahmae-supnet/Capstone1/assets/dotsbg.png");
+}*/
+
+.parallax {
+    /* The image used */
+    background-image: url("../assets2/sketch.jpg");
+
+    /* Set a specific height */
+    min-height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    background-color: #6f37ab;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.3  );  
+}
+
+ul {
+       list-style-type: none; 
+}
+
+li {
+    float:left;
+}
+
+.navbar-nav li a{
+    display: inline-block;
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.dropdown-menu {
+    padding: 0 !important;
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: #daf2c2 !important;
+    color: black;
+}
+
+#loginform {
+    background-color: #daf2c2;
+}
+
+.nav li a:hover, #icon-name:hover {
+    background-color: #daf2c2 !important;
+    text-decoration: none;
+    color:black;
+} 
+
+#loglink a, #loglink p , #loglink hr{
+    margin-top: -10px !important;
+}
+
+#forgotPass {
+    margin-bottom: 10px;
+}
+
+#loglink a, #forgotPass a {
+    font-size: 15px !important;
+    color:black !important;
+    
+}
+
+#loglink a:hover, #forgotPass a:hover {
+    color:#c516a3 !important;
+}
+
+.signup {
+    float: right;
+}
+
+
+ul.dropdown-lr {
+  width: 300px;
+}
+
+/*end of nav*/
+
+/*Stories Page*/
+.box{
+    width: 100%;
+    height: 400px;
+	border: 2px solid black;
+    left:0;
+    right: 0;
+}
+
+#stories-item {
+    width:400px;
+    height: 500px;
+}
+
+#carousel {
+    width:400px;
+    height: 500px;
+}
+
+#books {
+    width: 360px;
+    height: 200px;
+    /*max-height: 400px;
+    overflow: hidden;
+    align-items: center;
+    position: left;*/
+    
+}
+
+/*#thumb {
+    padding:0;
+    margin-top: 20px;
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+
+}*/
+
+
+
+.reveal p {
+font: 45px/300px Helvetica, Arial, sans-serif;
+text-align: center;
+-ms-filter:”progid:DXImageTransform.Microsoft.Alpha(Opacity=0)”;
+filter: alpha(opacity=0);
+opacity: 0;
+text-decoration: none !important;
+
+-webkit-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+-ms-transition: all 0.3s ease;
+transition: all 0.3s ease;
+}
+
+.reveal:hover p {
+-ms-filter:”progid:DXImageTransform.Microsoft.Alpha(Opacity=100)”;
+filter: alpha(opacity=100);
+opacity: 1;
+cursor: pointer;
+text-decoration: none !important;
+}
+
+.reveal a:hover, .reveal a:focus {
+  text-decoration: none !important;
+  color:black;
+}
+
+#readme p {
+  font-size: 1em;
+  line-height: 20px;
+}
+
+
+/*End of Stories*/
+
+/*About Page*/
+
+.image-widescreen{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /*min-height: 500px;*/
+  max-height: 500px; 
+  overflow-y: hidden;
+}
+
+.image-widescreen img {
+  width: 100%;
+}
+
+#about h2, #commentRow h2{
+    font-size: 30px;
+    /*margin-bottom: 20px;*/
+}
+
+#writeup1, #writeup2 {
+    width: 100%;
+    height: 200px;
+    min-height: 300px;
+    float: left;
+    margin: 40px 0 20px 0;
+    padding-bottom: 30px;
+    border-radius:20px;
+    color:white;
+    background-color: #6f37ab;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.3  );
+}
+
+#writeup1 {
+    margin-top: 80px;
+}
+
+#writeup2 {
+    margin-top: -10px;
+}
+
+#writeup p {
+    font-size: 18px;
+}
+
+#carousel-example {
+    margin-top: 50px;
+}
+
+
+.about-body {
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+
+.about-image2 {
+    margin-top: -20px;
+
+}
+
+.about-image1 {
+    margin-top: 100px;
+}
+
+.about-body img {
+    max-width: 650px;
+    max-height: 650px;
+    margin-top: -60px;
+    border-radius: 20px;
+    border: 10px solid #200589;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+/*Comment Box*/
+
+#commentRow{
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+     background-color: #daf2c2;
+    /*border: 2px solid #f4d9be;*/
+    float: left;
+    margin: 20px 0 20px 0;
+}
+
+#commentRow h2 {
+    margin-left: 
+}
+
+#comments1  {
+    height: 150px !important;
+    margin: 20px 10px 20px 10px !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+
+#comments>img {
+    align-items: center;
+}
+
+#comment-field textarea {
+    width :930px;
+    margin: 20px 10px 20px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+#comment-field #submit {
+    margin: 20px 10px 20px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/*End of About Page*/
+
+/*Videos Page*/
+
+.modal-dialog #vid-modal-dialog{
+    /*width: 98% !important;*/
+    padding: 0;
+    margin:0;
+    text-align: center;
+
+}
+
+.modal-content {    
+    /*height: 99%;
+    border-radius: 0;
+    color:white;
+    overflow:auto;
+    display: inline-block;*/
+    position: relative;
+    padding-bottom: 75%;
+    padding-top: 30px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.modal-content iframe, .modal-content object, .modal-content embed {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.modal-body {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    overflow: hidden;
+    height: 0;
+}
+
+#vidSection {
+    margin-top: 30px;
+}
+
+.jumbotron {
+    height: 400px !important;
+}
+
+/*End of Videos Page*/
+
+/*Actiivites Page*/
+
+#game-col1 {
+    /*height: 300px !important;*/
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
+    background-image: url(assets/game1.png);
+
+}
+
+#game-col2{
+    height: 300px !important;
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
+}
+
+#game-col3 {
+    height: 300px !important;
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
+}
+
+#game-col4 {
+    height: 300px !important;
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
+}
+
+#game-col5 {
+    height: 300px !important;
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
+}
+
+/*End of Activities Page*/
+
+/*Landing Page*/
+
+.reveal {
+width: 100%;
+height: 600px;
+margin-top: 10px;
+float: left;
+}
+
+.paper1 {
+background: url(/Users/haermae/Tuitt/reahmae-supnet/Capstone1/assets/paper1.jpg) 730px 0px, url(/Users/haermae/Tuitt/reahmae-supnet/Capstone1/assets/paper1.jpg) -290px 0px, url(/Users/haermae/Tuitt/reahmae-supnet/Capstone1/assets/reveal.png) 270px 0;
+background-repeat: no-repeat;
+-webkit-transition: background-position 0.8s ease;
+-moz-transition: background-position 0.8s ease;
+-o-transition: background-position 0.8s ease;
+-ms-transition: background-position 0.8s ease;
+transition: background-position 0.8s ease;
+z-index: -1;
+}
+
+.paper1:hover {
+background: url(/Users/haermae/Tuitt/reahmae-supnet/Capstone1/assets/paper1.jpg) 1150px 0px, url(/Users/haermae/Tuitt/reahmae-supnet/Capstone1/assets/paper1.jpg) -720px 0px, url(/Users/haermae/Tuitt/reahmae-supnet/Capstone1/assets/reveal.png) 270px 0 ;
+background-repeat: no-repeat;
+}
+
+.reveal p {
+font: 45px Helvetica, Arial, sans-serif;
+text-align: center;
+-ms-filter:”progid:DXImageTransform.Microsoft.Alpha(Opacity=0)”;
+filter: alpha(opacity=0);
+opacity: 0;
+
+-webkit-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+-ms-transition: all 0.3s ease;
+transition: all 0.3s ease;
+z-index: 1;
+}
+
+.reveal:hover p {
+-ms-filter:”progid:DXImageTransform.Microsoft.Alpha(Opacity=100)”;
+filter: alpha(opacity=100);
+opacity: 1;
+cursor: pointer;
+}
+
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 3px #999;
+  position: absolute;
+  top: 50%;
+  left: 45%;
+
+}
+
+.button:hover {
+    background-color: #3e8e41
+    -ms-filter:”progid:DXImageTransform.Microsoft.Alpha(Opacity=100)”;
+filter: alpha(opacity=100);
+opacity: 1;
+cursor: pointer;
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+/*Footer*/
+
+.footer-distributed{
+    background-color: #c516a3;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: normal 16px sans-serif;
+
+    padding: 30px 50px;
+    margin-top: 80px;
+}
+
+.footer-distributed .footer-left p{
+    color:  #ffffff;
+    font-size: 14px;
+    margin: 0;
+}
+
+/* Footer links */
+
+.footer-distributed p.footer-links{
+    font-size:18px;
+    font-weight: bold;
+    color:  #ffffff;
+    margin: 0 0 10px;
+    padding: 0;
+}
+
+.footer-distributed p.footer-links a{
+    display:inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color:  inherit;
+}
+
+.footer-distributed .footer-right{
+    float: right;
+    margin-top: 6px;
+    max-width: auto;
+}
+
+.footer-distributed .footer-right a{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    background-color:  #33383b;
+    border-radius: 2px;
+
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+
+    margin-left: 3px;
+}
+
+.foot-wrap:hover .fa-stack{
+    color: blue;
+    transition: 0.9s;
+    transform: rotateY(360deg);
+}
+
+.foot-wrap{
+    display: inline-block;
+    /*width: 200px;*/
+    /*border: 1px solid;*/
+    overflow: hidden;
+    text-align: center;
+}
+
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 600px) {
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-right{
+        text-align: center;
+    }
+
+    .footer-distributed .footer-right{
+        float: none;
+        margin: 0 auto 20px;
+    }
+
+    .footer-distributed .footer-left p.footer-links{
+        line-height: 1.8;
+    }
+}
+
+
+
+
