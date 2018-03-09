@@ -513,9 +513,23 @@ text-decoration: none !important;
 }
 
 
-/* If you don't want the footer to be responsive, remove these media queries */
 
-@media (max-width: 600px) {
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    
+    .logo {
+        visibility: hidden;
+    }
+
+    .navbar-nav li a {
+            margin-top: -50px;
+            padding: 10px 20px 10px 10px;
+    }
+
+    #shelf {
+        background-color: transparent;
+        /*opacity: 0;*/
+        border: none;
+    }
 
     .footer-distributed .footer-left,
     .footer-distributed .footer-right{
@@ -530,17 +544,67 @@ text-decoration: none !important;
     .footer-distributed .footer-left p.footer-links{
         line-height: 1.8;
     }
+
 }
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) {
 
-@media (max-width: 450px) {
-
-    .navbar-brand img {
-    visibility: hidden;
+    .logo img{
+        /*visibility: hidden;*/
+        margin-top: -100px;
     }
 
     #story-jumbo p {
         visibility: hidden;
     }
+
+    #story-jumbo h1 {
+        font-size: 80px;
+    }
+
+    .navbar-nav li a  {
+        text-align: center;
+        /*float:left;*/
+        font-size: 150%;
+        margin-left: 40px;
+        margin-right: -20px;
+        /*margin: 0;*/
+    }
+
+    .navbar-nav img {
+        width: 80%;
+    }
+
+    .navbar-brand img {
+    /*visibility:hidden;*/
+    margin-top: -100px;
+    }
+
+    #shelf {
+        background-color: transparent;
+        /*opacity: 0;*/
+        border: none;
+    }
     
-                
+    .footer-distributed {
+        margin-top: 40px;
+    }
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-right{
+        text-align: center;
+        font-size: 70%;
+    }
+
+    .footer-distributed .footer-right{
+        float: none;
+        margin: 0 auto 20px;
+        font-size: 70%;
+    }
+
+    .footer-distributed .footer-left p.footer-links{
+        /*line-height: 1.8;*/
+        font-size: 100%;
+        margin-top: -10px;
+    }
+    
 }

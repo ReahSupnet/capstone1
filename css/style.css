@@ -107,6 +107,35 @@ ul.dropdown-lr {
 
 /*end of nav*/
 
+/*Landing Page*/
+
+
+.landing {
+  /*position: relative;*/
+  opacity: 0.65;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../assets2/landing.jpg");
+  height: 100%; 
+}
+
+/*.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}*/
 
 /*About Page*/
 
@@ -115,7 +144,6 @@ ul.dropdown-lr {
   top: 0;
   left: 0;
   width: 100%;
-  /*min-height: 500px;*/
   max-height: 500px; 
   overflow-y: hidden;
 }
@@ -126,15 +154,13 @@ ul.dropdown-lr {
 
 #about h2, #commentRow h2{
     font-size: 30px;
-    /*margin-bottom: 20px;*/
 }
 
 #writeup1, #writeup2 {
-    width: 500px;
+    width: 600px;
     height: 200px;
     min-height: 300px;
     float: left;
-    margin: 40px 0 20px 0;
     padding-bottom: 30px;
     border-radius:20px;
     color:white;
@@ -149,7 +175,9 @@ ul.dropdown-lr {
 
 #writeup2 {
     margin-left: 70px;
-    margin-top: -10px;
+    margin-top: 30px;
+    margin-right: 70px !important;
+    position: relative;
 }
 
 #writeup3 {
@@ -157,10 +185,9 @@ ul.dropdown-lr {
     margin-left: 45px;
     margin-right: 40px;
     width: 100%;
-    height: 200px;
+    height: 300px;
     min-height: 300px;
     float: left;
-    /*margin: 40px 0 20px 0;*/
     padding-bottom: 30px;
     border-radius:20px;
     color:white;
@@ -168,6 +195,8 @@ ul.dropdown-lr {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.3  );
     overflow: hidden;
 }
+
+
 
 #carousel-example {
     margin-top: 50px;
@@ -179,7 +208,6 @@ ul.dropdown-lr {
     margin-left: 30px;
     margin-right: 30px;
     z-index: -1;
-
 }
 
 .about-image2 {
@@ -193,9 +221,9 @@ ul.dropdown-lr {
 
 #about-image3 img{
     border-radius: 50%;
-    /*background:url(http://placekitten.com/200/300);*/
+    margin-right: 50px;
+    margin-top: 50px;
 }
-
 
 .about-body img {
     max-width: 650px;
@@ -204,7 +232,6 @@ ul.dropdown-lr {
     border-radius: 20px;
     border: 10px solid #200589;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
 }
 
 
@@ -215,7 +242,6 @@ ul.dropdown-lr {
     height: auto;
     min-height: 300px;
     background-color: #6f37ab;
-    /*border: 2px solid #f4d9be;*/
     float: left;
     margin: 20px 0 20px 0;
 }
@@ -230,7 +256,6 @@ ul.dropdown-lr {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border: 1px solid lightgrey;
     border-radius: 5px;
-    /*background-color: #cbf6ff;*/
 }
 
 .panel .panel-default #comment1 {
@@ -242,7 +267,8 @@ ul.dropdown-lr {
 
 #comment-field textarea {
     width :930px;
-    margin: 20px 10px 20px -40px;
+    margin-left: -50px;
+    margin-bottom: 10px; 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border: 1px solid lightgrey;
     border-radius: 5px;
@@ -252,14 +278,12 @@ ul.dropdown-lr {
 #commentRow h2 {
     font-family: 'Asap', san sans-serif;
     color:white;
+    margin-left: 20px;
 }
 
-#comment-body {
-    background-color: green;
-}
 
 #comment-field #submit {
-    margin: 20px 10px 20px 10px;
+    margin: 20px 10px 20px -50px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -268,32 +292,22 @@ ul.dropdown-lr {
 
 }
 
-#comment-body textarea.form-control {
-    background-color: #cbf6ff
+#comments-area {
+    margin-left: 50px;
 }
 
-#about-image3 {
-    margin-top: 50px;
-    border-radius: 50%;
-}
 
 /*End of About Page*/
 
 /*Videos Page*/
 
 .modal-dialog #vid-modal-dialog{
-    /*width: 98% !important;*/
     padding: 0;
     margin:0;
     text-align: center;
 }
 
 .modal-content {    
-    /*height: 99%;
-    border-radius: 0;
-    color:white;
-    overflow:auto;
-    display: inline-block;*/
     position: relative;
     padding-bottom: 75%;
     padding-top: 30px;
@@ -377,12 +391,13 @@ ul.dropdown-lr {
     text-shadow: -3px 0 #feff65, 0 3px #feff65, 3px 0 #feff65, 0 -3px #feff65;
 }
 
-
-
 /*End of Videos Page*/
 
 /*Actiivites Page*/
 
+.games-bg {
+    background-color: rgb(255,230,236);
+}
 
 #games-jumbo {
     width:100%;
@@ -393,14 +408,12 @@ ul.dropdown-lr {
     background-size: cover;
     opacity: 0.95;
     color: rgba(255,255,255,1);
- /*   border-bottom: 20px solid #e34799;
-    border-top: 20px solid #e34799;*/  
 }
 
 
 #games-jumbo h1 {
     font-size: 120px;
-    color: rgba(242,146,0,1);
+    color: rgba(171,32,253,1);
     font-family: 'Capriola', sans-serif;
     text-align: center;
     margin-top: 20%;
@@ -416,14 +429,27 @@ ul.dropdown-lr {
 }
 
 .container .content {
-    background: rgba(255, 255, 255, 0.5); /* Black background with 0.5 opacity */
+    background: rgba(255, 255, 255, 0.7); /* Black background with 0.5 opacity */
     color:#200589; 
-    width: 100%; /* Full width */
+    width: 100%;
+    border-radius: 10px;
+}
+
+.container {
+    margin-top: -30px;
 }
 
 #game-col1, #game-col2, #game-col3, #game-col4, #game-col5 h1 {
     color: #200589;
     font-family: 'Capriola', sans-serif;
+   /*text-align: center;*/
+}
+
+.content p {
+    color: #200589;
+    font-family: 'Capriola', sans-serif;
+    font-size: 150%;
+    text-indent: 50px;
    /*text-align: center;*/
 }
 
@@ -486,11 +512,8 @@ ul.dropdown-lr {
     margin-top: 50px;
     background: url("../assets/game8.png");
     background-size: cover;
-    /*text-align: center;*/
-    /*align-items: center;*/
+   
 }
-
-
 
 /*End of Activities Page*/
 
@@ -583,7 +606,7 @@ cursor: pointer;
     font: normal 16px sans-serif;
 
     padding: 30px 50px;
-    margin-top: 100px;
+    margin-top: 60px;
     
     /*position:absolute;*/
     bottom: 0;
@@ -596,6 +619,7 @@ cursor: pointer;
     color:  #ffffff;
     font-size: 14px;
     margin: 0;
+    /*margin-top: -30px;*/
 }
 
 /* Footer links */
@@ -658,9 +682,22 @@ cursor: pointer;
 .footer-distributed .footer-right p {
     color:black;
 }
-/* If you don't want the footer to be responsive, remove these media queries */
 
-@media (max-width: 700px) {
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    
+    .logo {
+        visibility: hidden;
+    }
+
+    .navbar-nav li a{
+        margin-right: -20px: 
+        padding-right: 0px !important;
+        padding-left:  0px !important;
+        margin-top: -50px;
+        /*align-items: right;*/
+    }
 
     .footer-distributed .footer-left,
     .footer-distributed .footer-right{
@@ -680,7 +717,7 @@ cursor: pointer;
     .about-body img {
     max-width: 400px;
     max-height: 400px;
-    margin-top: -0px;
+    margin-top: 10px;
     margin-bottom: 30px;
     border-radius: 20px;
     align-items: center;
@@ -689,27 +726,42 @@ cursor: pointer;
     }
 
     #writeup3 {
-    max-width:500px;
+    width: 100%;
+    max-width:600px;
     max-height:500px;     
-    margin-top: -30px;
-    margin-left: 45px;
+    margin-top: 30px;
+    margin-left: 80px;
     margin-right: 40px;
     overflow: hidden;
     text-align: center;
     }
 
-    .about-image1 {
-        margin-top: 10px;
+    #writeup2 {
+        margin-left: 30px;
+        margin-top: -20px;
     }
 
+    #writeup1 {
+        margin-left: 30px;
+    }
+
+    .about-image1 {
+        margin-top: 10px;
+        margin-left: 130px;
+    }
+
+    .about-image2 {
+        margin-top: -20px !important;
+        margin-left: 130px;
+    }
     .about-image3 img{
         margin: 50px 50px;
         
     }
 
     #comment-field textarea {
-    max-width :550px;
-    margin: 10px;
+    max-width :740px;
+    /*margin: 10px;*/
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border: 1px solid lightgrey;
     border-radius: 5px;
@@ -722,27 +774,51 @@ cursor: pointer;
     height: auto;
     margin-top: -100px;
     }
+
+
+    .vid-title h1 {
+        font-size: 60%;
+    }
+
+    .content p {
+    color: #200589;
+    font-family: 'Capriola', sans-serif;
+    font-size: 100%;
+    /*text-indent: 50px;*/
+   text-align: center;
+    }
+
+    .content h1 {
+        text-align: center;
+    }
 }
 
-@media (max-width: 450px) {
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) {
 
     .about-body img {
-    max-width: 350px;
-    max-height: 350px;
-    margin-top: -80px;
-    margin-bottom: 30px;
-    margin-left: 30px;
+    width: 300px;
+    margin-left: 20px;
     border-radius: 20px;
     align-content: center;
     border: 10px solid #200589;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
+
+    #story-jumbo p {
+        visibility: hidden;
+    }
+
+    #story-jumbo h1 {
+        font-size: 80px;
+    }
+
+
     #writeup2 {
     max-width:300px;
     max-height:500px;     
-    /*margin-top: 100px;*/
-    margin-left: -10px;
+    margin-top: 20px;
+    margin-left: -15px;
     /*margin-right: 100px;*/
     overflow: hidden;
     text-align: center;
@@ -751,10 +827,10 @@ cursor: pointer;
     #writeup3 {
     max-width:300px;
     max-height:500px;     
-    margin-top: 100px;
-    /*margin-left: 10px;*/
+    margin-left: 30px;
     margin-right: 40px;
     overflow: hidden;
+    margin-top: 20px;
     text-align: center;
     }
 
@@ -763,24 +839,39 @@ cursor: pointer;
     max-height:500px;     
     overflow: hidden;
     text-align: center;
+    margin-top:-10px;
+    margin-left: -10px;
+    margin-bottom: 20px;
     }
 
     .about-image1 {
+        width:300px !important;
+        height: 150px !important;
         max-width:250px;
         text-align: center;
-        margin-top: 80px;
+        margin-top: 100px !important;
         margin-right: 85px;
+        margin-left: -30px;
     }
 
     .about-image2 {
+        width:300px;
+        /*height: 250px;*/
         max-width:250px;
         text-align: center;
-        margin-top: 30px;
-        margin-left: -60px;
+        margin-top: 280px !important;
+        margin-left: -10px !important;
     }
 
-    #comment-field textarea {
-    max-width :310px;
+    #about-image3 img{
+        max-width: 50%;
+        /*height:auto;*/
+        margin-top: 20px !important;
+        margin-left: 40px;
+    }
+
+    #comment textarea {
+    width :200px !important;
     margin: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border: 1px solid lightgrey;
@@ -789,13 +880,26 @@ cursor: pointer;
     align-content: center;
     }
 
+    #comment-field textarea {
+        width:330px;
+    }
+
     .navbar-nav li a  {
-        text-align: left;
-        float:left;
+        text-align: center;
+        /*float:left;*/
+        font-size: 150%;
+        margin-left: 40px;
+        margin-right: -20px;
+        /*margin: 0;*/
+    }
+
+    .navbar-nav img {
+        width: 80%;
     }
 
     .navbar-brand img {
-    visibility:hidden;
+    /*visibility:hidden;*/
+    margin-top: -100px;
     }
 
     #games-jumbo h1 {
@@ -803,7 +907,42 @@ cursor: pointer;
     }
 
     .vid-title h1 {
-        font-size: 32%;
+        font-size: 25%;
     }
+
+    .content p {
+    color: #200589;
+    font-family: 'Capriola', sans-serif;
+    font-size: 80%;
+    /*text-indent: 50px;*/
+    text-align: center;
+    }
+
+    .content h1 {
+        text-align: center;
+    }
+
+    .footer-distributed {
+        margin-top: 40px;
+    }
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-right{
+        text-align: center;
+        font-size: 70%;
+    }
+
+    .footer-distributed .footer-right{
+        float: none;
+        margin: 0 auto 20px;
+        font-size: 70%;
+    }
+
+    .footer-distributed .footer-left p.footer-links{
+        /*line-height: 1.8;*/
+        font-size: 100%;
+        margin-top: -10px;
+    }
+
 
 }
