@@ -9,7 +9,7 @@
 }*/
 
 .navbar-brand img {
-    width: 30%;
+    width: 25%;
     height: auto;
 }
 
@@ -110,32 +110,7 @@ ul.dropdown-lr {
 /*Landing Page*/
 
 
-.landing {
-  /*position: relative;*/
-  opacity: 0.65;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url("../assets2/landing.jpg");
-  height: 100%; 
-}
-
-/*.caption {
-  position: absolute;
-  left: 0;
-  top: 50%;
-  width: 100%;
-  text-align: center;
-  color: #000;
-}
-
-.caption span.border {
-  background-color: #111;
-  color: #fff;
-  padding: 18px;
-  font-size: 25px;
-  letter-spacing: 10px;
-}*/
+ 
 
 /*About Page*/
 
@@ -527,7 +502,7 @@ float: left;
 }
 
 .paper1 {
-background: url(/Users/haermae/Tuitt/reahmae-supnet/Capstone1/assets/paper1.jpg) 730px 0px, url(/Users/haermae/Tuitt/reahmae-supnet/Capstone1/assets/paper1.jpg) -290px 0px, url(/Users/haermae/Tuitt/reahmae-supnet/Capstone1/assets/reveal.png) 270px 0;
+background: url(../assets/paper1.jpg) 730px 0px, url(../assets/paper1.jpg) -290px 0px, url(../assets2/landing.jpg) 270px 0;
 background-repeat: no-repeat;
 -webkit-transition: background-position 0.8s ease;
 -moz-transition: background-position 0.8s ease;
@@ -538,7 +513,7 @@ z-index: -1;
 }
 
 .paper1:hover {
-background: url(/Users/haermae/Tuitt/reahmae-supnet/Capstone1/assets/paper1.jpg) 1150px 0px, url(/Users/haermae/Tuitt/reahmae-supnet/Capstone1/assets/paper1.jpg) -720px 0px, url(/Users/haermae/Tuitt/reahmae-supnet/Capstone1/assets/reveal.png) 270px 0 ;
+background: url(../assets/paper1.jpg) 1150px 0px, url(../assets/paper1.jpg) -720px 0px, url(../assets2/landing.jpg) 270px 0 ;
 background-repeat: no-repeat;
 }
 
@@ -577,7 +552,7 @@ cursor: pointer;
   box-shadow: 0 3px #999;
   position: absolute;
   top: 50%;
-  left: 45%;
+  left: 40%;
 
 }
 
