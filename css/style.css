@@ -225,6 +225,9 @@ ul.dropdown-lr {
     margin-left: 
 }
 
+.media .media-left img {
+    width:100px; height:100px;
+}
 #comments1  {
     height: auto !important;
     margin: 20px 10px 20px 10px !important;
@@ -630,19 +633,44 @@ cursor: pointer;
     display: inline-block;
     width: auto;
     height: auto;
-    background-color:  #33383b;
+    /*background-color:  #33383b;*/
     border-radius: 2px;
 
     font-size: 20px;
-    color: #ffffff;
+    /*color: #ffffff;*/
     text-align: center;
     line-height: 35px;
 
     margin-left: 3px;
 }
 
-.foot-wrap:hover .fa-stack{
+/*.foot-wrap:hover .fa-stack{
     color: blue;
+    transition: 0.9s;
+    transform: rotateY(360deg);
+}*/
+
+
+.foot-wrap:hover .fa-facebook{
+    /*color: #3B5998;*/
+    transition: 0.9s;
+    transform: rotateY(360deg);
+}
+
+.foot-wrap:hover .fa-twitter{
+    color: #55ACEE;
+    transition: 0.9s;
+    transform: rotateY(360deg);
+}
+
+.foot-wrap:hover .fa-github{
+    color: black;
+    transition: 0.9s;
+    transform: rotateY(360deg);
+}
+
+.foot-wrap:hover .fa-google{
+    color: #dd4b39;
     transition: 0.9s;
     transform: rotateY(360deg);
 }
